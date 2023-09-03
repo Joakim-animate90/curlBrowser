@@ -1,7 +1,7 @@
 # curl Browser ![Chrome](https://raw.githubusercontent.com/alrra/browser-logos/main/src/chrome/chrome_24x24.png "Chrome") 
 #### Description:
 
-Welcome to the cURL Browser Impersonator project! This specialized build of  [curl](https://github.com/curl/curl) that  aims to mimic the behavior of major web browsers, such as Chrome, during TLS and HTTP handshakes.This version of cURL is wrapped in Python, allowing you to conveniently test and interact with it in a browser environment while capturing and analyzing responses.
+Welcome to the cURL Browser Impersonator project! This specialized tool build of  [curl](https://github.com/curl/curl) that  aims to mimic the behavior of major web browsers, such as Chrome, during TLS and HTTP handshakes.This version of cURL is wrapped in Python, allowing you to conveniently test and interact with it in a browser environment while capturing and analyzing responses.
 
 ### Key Features
 

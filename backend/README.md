@@ -16,11 +16,18 @@ You can open this sample in the Dev Environments feature of Docker Desktop versi
 Project structure:
 ```
 .
-├── compose.yaml
-├── app
-    ├── Dockerfile
-    ├── requirements.txt
-    └── app.py
+    backend
+    ├── app
+    │   ├── app.py
+    │   ├── convertJson.py
+    │   ├── Dockerfile
+    │   ├── fetchCurl.py
+    │   ├── requirements.txt
+    │   └── templates
+    │       ├── index.html
+    │       └── results.html
+    ├── compose.yaml
+    └── README.md
     
 ```
 
