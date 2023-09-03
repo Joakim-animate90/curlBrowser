@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def getHomePage():
-    url = "https://www.wikipedia.org"  # Replace with the URL you want to fetch headers for
+    url = "https://www.wikipedia.org"
     fetcher = FetchCurl(url)
     headers = fetcher.getHeaders()
     converter = ConvertJson(headers[0], headers[1])
@@ -17,7 +17,7 @@ def getHomePage():
 @app.route('/results', methods=['GET', 'POST'])
 def results():
     if request.method == 'POST':
-        url = request.form.get('url')  # Retrieve the 'url' field from the form data
+        url = request.form.get('url') 
         if url:
             fetcher = FetchCurl(url)
             headers = fetcher.getHeaders()
@@ -28,8 +28,6 @@ def results():
             return render_template('results.html', results= pretty_json)
         else:
             return "Please provide a URL."
-
-    # For GET request, or if there's no valid URL submitted yet, render the form
     return render_template('index.html')
 
 if __name__ == '__main__':
