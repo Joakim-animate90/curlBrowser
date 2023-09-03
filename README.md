@@ -1,6 +1,3 @@
-# Curl Browser
-
-### Project Title: cURL Browser Impersonator
 # curl Browser ![Chrome](https://raw.githubusercontent.com/alrra/browser-logos/main/src/chrome/chrome_24x24.png "Chrome") 
 #### Description:
 
