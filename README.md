@@ -19,7 +19,7 @@ Welcome to the cURL Browser Impersonator project! This specialized tool build of
   
 
 
-### Use with Docker Development Environments
+### ![Use with Docker Development Environments](https://www.google.com/url?sa=i&url=https%3A%2F%2Fvariwiki.com%2Findex.php%3Ftitle%3DFile%3ADocker.png&psig=AOvVaw2JB2KkoEE72qQPjl4GUf7P&ust=1693850221779000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLDgmI2Cj4EDFQAAAAAdAAAAABAE)
 
 You can open this sample in the Dev Environments feature of Docker Desktop version 4.12 or later.
 
