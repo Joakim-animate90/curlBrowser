@@ -119,3 +119,14 @@ Stop and remove the containers
 ```
 $ docker compose down
 ```
+
+## Acknowledgments
+
+I would like to extend my heartfelt thanks to the developers of the cURL Browser Impersonator package for their outstanding work and dedication to this project. Their efforts have enabled me to leverage this powerful tool for browser emulation and testing, making my project a reality.
+
+This project would not have been possible without the excellent work of the cURL Browser Impersonator team. I am truly grateful for their contributions to the open-source community and their commitment to enhancing web testing capabilities.
+
+If you find the cURL Browser Impersonator package valuable, please consider supporting their project and contributing to its development.
+
+Thank you for your exceptional work!
+
