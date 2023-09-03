@@ -17,13 +17,43 @@ Welcome to the cURL Browser Impersonator project! This specialized tool build of
 
   ![Capture and Analyze Responses](https://example.com/capture-analyze.png)
   
+## Basic Usage - Web Form
+
+1. **Access the cURL Browser Impersonator Web Interface:**
+
+   Start by opening your web browser and navigating to the cURL Browser Impersonator web interface. The URL to access the interface should be provided by your project setup.
+
+2. **Enter the URL:**
+
+   You will typically find a form field labeled "URL" or similar on the web interface. Enter the URL that you want to test or analyze in this field.
+
+3. **Configure Browser Settings (Optional):**
+
+   Depending on your project's capabilities, you may have options to configure browser-specific settings such as user agents, request headers, and more. Adjust these settings if necessary.
+
+4. **Submit the Form:**
+
+   Once you have entered the URL and configured any additional settings, click the "Submit" or "Execute" button on the web form.
+
+5. **Receive JSON Response:**
+
+   After submitting the form, the cURL Browser Impersonator will perform the requested action (e.g., making a request to the specified URL) and return a JSON response. This response may contain data related to the web request, including headers, content, and other relevant information.
+
+6. **Analyze and Use the JSON Response:**
+
+   You can analyze and use the JSON response data according to your project's requirements. This may involve further processing, displaying the data, or integrating it with other tools or applications.
+
+7. **Contribute and Explore:**
+
+   If you encounter issues or have suggestions for improvements, consider contributing to the project. Check out our [Contribution Guidelines](CONTRIBUTING.md) for more information.
+
+Please note that the specific steps and options in the web form may vary based on your project's implementation. Make sure to provide clear instructions based on your project's user interface and functionality.
+
+Feel free to customize this section further to match the specifics of your project's web-based interaction.
 
 
-### ![Use with Docker Development Environments](https://www.google.com/url?sa=i&url=https%3A%2F%2Fvariwiki.com%2Findex.php%3Ftitle%3DFile%3ADocker.png&psig=AOvVaw2JB2KkoEE72qQPjl4GUf7P&ust=1693850221779000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLDgmI2Cj4EDFQAAAAAdAAAAABAE)
+### ![Use with Docker Development Environments]
 
-You can open this sample in the Dev Environments feature of Docker Desktop version 4.12 or later.
-
-[Open in Docker Dev Environments <img src="../open_in_new.svg" alt="Open in Docker Dev Environments" align="top"/>](https://open.docker.com/dashboard/dev-envs?url=https://github.com/docker/awesome-compose/tree/master/flask)
 
 ### Python/Flask application
 
@@ -76,7 +106,7 @@ $ docker compose up -d
  => => naming to docker.io/library/flask_web                                                                                                                                                                                               0.0s
 [+] Running 2/2
  ⠿ Network flask_default  Created                                                                                                                                                                                                          0.0s
- ⠿ Container flask-web-1  Started
+ ⠿ Container backend-web-1  Started
 ```
 
 ## Expected result
@@ -85,7 +115,7 @@ Listing containers must show one container running and the port mapping as below
 ```
 $ docker compose ps
 NAME                COMMAND             SERVICE             STATUS              PORTS
-flask-web-1         "python3 app.py"    web                 running             0.0.0.0:8000->8000/tcp
+backend-web-1         "python3 app.py"    web                 running             0.0.0.0:8000->8000/tcp
 ```
 
 After the application starts, navigate to `http://localhost:8000` in your web browser or run:
