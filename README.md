@@ -30,23 +30,40 @@ You can open this sample in the Dev Environments feature of Docker Desktop versi
 Project structure:
 ```
 .
-├── compose.yaml
-├── app
-    ├── Dockerfile
-    ├── requirements.txt
-    └── app.py
+    backend
+    ├── app
+    │   ├── app.py
+    │   ├── convertJson.py
+    │   ├── Dockerfile
+    │   ├── fetchCurl.py
+    │   ├── requirements.txt
+    │   └── templates
+    │       ├── index.html
+    │       └── results.html
+    ├── compose.yaml
+    └── README.md
+    
     
 ```
 
 [_compose.yaml_](compose.yaml)
 ```
-services: 
-  web: 
+version: '3'
+services:
+  web:
     build:
-     context: app
-     target: builder
-    ports: 
+      context: app
+      target: builder
+    stop_signal: SIGINT
+    ports:
       - '8000:8000'
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock  # Mount the Docker socket
+      - ./app:/app  # Mount your project directory into the container
+
+  curl-container:
+    image: lwthiker/curl-impersonate:0.5-chrome
+    command: ["sleep", "infinity"]  # Keep the container running
 ```
 
 ## Deploy with docker compose
