@@ -17,42 +17,36 @@ Welcome to the cURL Browser Impersonator project! This specialized tool build of
 
   ![Capture and Analyze Responses](https://example.com/capture-analyze.png)
   
-## Basic Usage - Web Form
+<h2 style="color: #007ACC">Basic Usage - Web Form</h2>
 
-1. **Access the cURL Browser Impersonator Web Interface:**
+1. <span style="color: #007ACC">**Access the cURL Browser Impersonator Web Interface:**</span>
 
    Start by opening your web browser and navigating to the cURL Browser Impersonator web interface. The URL to access the interface should be provided by your project setup.
 
-2. **Enter the URL:**
+2. <span style="color: #007ACC">**Enter the URL:**</span>
 
    You will typically find a form field labeled "URL" or similar on the web interface. Enter the URL that you want to test or analyze in this field.
 
-3. **Configure Browser Settings (Optional):**
+3. <span style="color: #007ACC">**Configure Browser Settings (Optional):**</span>
 
    Depending on your project's capabilities, you may have options to configure browser-specific settings such as user agents, request headers, and more. Adjust these settings if necessary.
 
-4. **Submit the Form:**
+4. <span style="color: #007ACC">**Submit the Form:**</span>
 
    Once you have entered the URL and configured any additional settings, click the "Submit" or "Execute" button on the web form.
 
-5. **Receive JSON Response:**
+5. <span style="color: #007ACC">**Receive JSON Response:**</span>
 
    After submitting the form, the cURL Browser Impersonator will perform the requested action (e.g., making a request to the specified URL) and return a JSON response. This response may contain data related to the web request, including headers, content, and other relevant information.
 
-6. **Analyze and Use the JSON Response:**
+6. <span style="color: #007ACC">**Analyze and Use the JSON Response:**</span>
 
    You can analyze and use the JSON response data according to your project's requirements. This may involve further processing, displaying the data, or integrating it with other tools or applications.
 
-7. **Contribute and Explore:**
+7. <span style="color: #007ACC">**Contribute and Explore:**</span>
 
    If you encounter issues or have suggestions for improvements, consider contributing to the project. Check out our [Contribution Guidelines](CONTRIBUTING.md) for more information.
 
-Please note that the specific steps and options in the web form may vary based on your project's implementation. Make sure to provide clear instructions based on your project's user interface and functionality.
-
-Feel free to customize this section further to match the specifics of your project's web-based interaction.
-
-
-### ![Use with Docker Development Environments]
 
 
 ### Python/Flask application
